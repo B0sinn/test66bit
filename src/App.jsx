@@ -1,15 +1,16 @@
-import { useState } from 'react'
-
 import './App.css'
-
-import React from 'react';
+import News from './pages/news.jsx'
+import Themes from "./pages/themes.jsx";
 
 const App = () => {
+
     return (
         <div>
-
+            <News/>
+            <Themes/>
         </div>
-    );
+
+)
 };
 
 export default App
